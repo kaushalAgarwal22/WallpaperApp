@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Art_Images.Art_Images">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000033">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000033"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/ivback"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_weight="0.1"
+                    android:visibility="visible"
+                    android:src="@drawable/leftaw" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:text="ART"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/ivHeart"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:layout_weight="0.2"
+                    android:gravity="start"
+                    android:src="@drawable/favoriteheart" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar_layout"
+        android:nestedScrollingEnabled="false" />
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:id="@+id/iv_Outside"-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:layout_alignTop="@id/iv_Outside"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:id="@+id/iv_back"-->
+        <!--android:src="@drawable/lefttarrow"-->
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#330000"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="4"-->
+        <!--android:padding="10dp"-->
+        <!--&gt;-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/whitefav"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:id="@+id/iv_Save"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:src="@drawable/savve"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/picture"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/iv_SetWallpaper"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/iv_Share"-->
+            <!--android:src="@drawable/sharee"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+</RelativeLayout>

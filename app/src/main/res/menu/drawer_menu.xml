@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+
+        android:id="@+id/categories"
+         >
+
+
+    <item
+        android:id="@+id/Contests"
+        android:title="Categories"
+        android:icon="@drawable/ic_list_black_24dp"
+        />
+
+    <item
+        android:id="@+id/Abstract"
+        android:title="Abstract"
+
+        />
+
+        <item
+            android:id="@+id/Anime"
+            android:title="Anime"
+
+            />
+
+        <item
+            android:id="@+id/Art"
+            android:title="Art"
+
+            />
+
+        <item
+            android:id="@+id/Cars"
+            android:title="Cars"
+
+            />
+
+    <item
+        android:id="@+id/Cityscape"
+        android:title="Cityscape"
+
+        />
+
+    <item
+        android:id="@+id/Dark"
+        android:title="Dark"
+        />
+
+        <item
+            android:id="@+id/Fantasy"
+            android:title="Fantasy"
+            />
+
+        <item
+            android:id="@+id/Flowers"
+            android:title="Flowers"
+            />
+
+         <item
+            android:id="@+id/Girls"
+            android:title="Girls"
+            />
+
+        <item
+            android:id="@+id/Love"
+            android:title="Love"
+            />
+
+        <item
+            android:id="@+id/Motivational"
+            android:title="Motivation"
+            />
+
+        <item
+            android:id="@+id/Motorcycles"
+            android:title="Motorcycles"
+            />
+
+        <item
+            android:id="@+id/Music"
+            android:title="Music"
+            />
+
+        <item
+            android:id="@+id/Nature"
+            android:title="Nature"
+            />
+
+        <item
+            android:id="@+id/Quote"
+            android:title="Quote"
+            />
+
+        <item
+            android:id="@+id/Space"
+            android:title="Space"
+            />
+
+        <item
+            android:id="@+id/Sports"
+            android:title="Sports"
+            />
+
+        <item
+            android:id="@+id/Technology"
+            android:title="Technology"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/Share"
+            android:title="Share"
+            android:icon="@drawable/sharee"
+            >
+        </item>
+    </group>
+
+</menu>
+
+
+
+

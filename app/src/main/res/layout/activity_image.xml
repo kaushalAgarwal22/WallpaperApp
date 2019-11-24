@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Image">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:id="@+id/iv_Outside"
+            />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="24dp"
+             android:layout_alignTop="@id/iv_Outside"
+             android:layout_margin="15dp"
+             android:id="@+id/iv_back"
+             android:src="@drawable/leftaw"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#5b2c6f"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/whitefav"
+                android:layout_weight="1"
+                android:id="@+id/favourite"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:layout_weight="1"
+                android:id="@+id/favourite_heart"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:id="@+id/iv_Save"
+                android:layout_height="24dp"
+                android:src="@drawable/savve"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picture"
+                android:layout_weight="1"
+                android:id="@+id/iv_SetWallpaper"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_Share"
+                android:src="@drawable/sharee"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>
